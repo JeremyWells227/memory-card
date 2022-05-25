@@ -1,0 +1,28 @@
+
+
+.imageGrid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1100px
+}
+
+
+.imageGrid img {
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	flex: 0 1 200px;
+}
+.imageGrid div {
+	margin: 5px;
+	flex: 0 1 200px;
+	border: 3px solid black;
+	border-radius: 5%;
+	color: rgb(230,230,230);
+	text-align: center;
+}
+.imageGrid div:hover {
+	border: 5px solid #EEEEEE;
+	transition: 0.3s;
+}

@@ -1,0 +1,18 @@
+
+.ScoreBoard {
+	display: flex;
+	width: 80%;
+	justify-self: center;
+	align-self: center;
+	flex-direction: column;
+	border: solid 
+}
+.ScoreBoard p { 
+
+	font-size: 25px;
+	padding: 10px;
+	flex: 1;
+	color: rgb(230,230,230);
+}
+
+
